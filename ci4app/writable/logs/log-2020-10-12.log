@@ -1,0 +1,52 @@
+CRITICAL - 2020-10-12 20:45:41 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 21:21:15 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(18): view('layout/header')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->about()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 21:22:36 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(18): view('layout/header')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->about()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 21:22:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(18): view('layout/header')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->about()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 21:23:14 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(18): view('layout/header')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->about()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
