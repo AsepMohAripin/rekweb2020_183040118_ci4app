@@ -6,6 +6,7 @@ class komikModel extends Model
 {
     protected $table = 'komik';
     protected $useTimestamps = true;
+    protected $allowedFields = ['judul', 'slug', 'penulis','penerbit', 'sampul'];
 
     public function getKomik($slug = false)
     {
